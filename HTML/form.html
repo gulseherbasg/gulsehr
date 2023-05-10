@@ -8,7 +8,31 @@
     <title>Log in</title>
     <link rel="stylesheet" href="style.css">
 
-   
+    <script type="text/javascript">
+
+        function handleIt() {
+            var degisken = document.getElementById("e-posta").value;
+            var degisken2 = document.getElementById("password").value;
+
+            if(degisken==="g221210081@sakarya.edu.tr" || degisken==="G221210081@sakarya.edu.tr")
+{ 
+    
+    if(degisken2==="g221210081" || degisken2==="G221210081")
+{ 
+    window.location.href = "/odev.html";
+}
+else{
+            alert("Yanlış veri girdiniz. Lütfen tekrar deneyin.")
+        }
+
+        }
+
+        else{
+            alert("Yanlış veri girdiniz. Lütfen tekrar deneyin.")
+        }
+    }
+
+    </script>
 </head>
 
 <body>
