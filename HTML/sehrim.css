@@ -1,0 +1,125 @@
+
+
+body {
+    background: url(resimler/fo2.jpeg);
+margin: 0px;
+padding: 0px;
+  }
+
+h5 {
+    margin: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+  h2 {
+    margin: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+
+  }
+
+  h4 {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+  .ozell {
+    background-color: rgba(244, 243, 243, 0.597);
+    width: 90%;
+    text-align: center;
+    padding-top: 2px;
+    height: 390px;
+  }
+
+  .baslık {
+    background-color: rgba(244, 243, 243, 0.689);
+    width: 60%;
+    margin-left: 75px;
+    padding-top: 2px;
+    height: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+  }
+
+  .cini {
+    background-color: rgba(244, 243, 243, 0.689);
+    width: 60%;
+    margin-left: 75px;
+    padding-top: 2px;
+    height: 300px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+.celebifoto{
+    margin-left: 20px; width: 455px; height: 297px;
+}
+
+
+
+
+
+
+
+
+/*  tablet ekran */
+@media(max-width:960px)
+{ }               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  telefon ekran */
+@media(max-width:768px)
+{
+
+
+      .celebifoto{
+        width: 10px;
+        height: 71px;
+        margin-left: 0px;
+      }
+    
+    
+    
+
+
+ }

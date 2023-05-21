@@ -60,7 +60,7 @@ form input[type="text"],form input[type="password"]
 border: solid 2px;
 }
 
-form input[typpe="submit"]
+form input[type="submit"]
 {
 border:solid 2px #55E6c1;
 box-sizing:border-box;

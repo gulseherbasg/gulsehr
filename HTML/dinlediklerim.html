@@ -9,6 +9,33 @@
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
 <style>
+
+.film {
+  width: 78%;
+  margin:auto;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 20px;
+      background-color: rgba(240, 248, 255, 0.471);
+    }
+
+    .film img {
+      max-width: 200px;
+      height: auto;
+      margin-left: 30px;
+    }
+
+  
+
+    .film p {
+      margin: 5px 0;
+    
+    }
+
+    
+
+
+
 body{
     background: url(resimler/fo10.jpeg);
 }
@@ -33,9 +60,10 @@ margin-left: 30px;
 
 
 .divv{
+  padding-top: 25px;
 background-color: rgba(241, 246, 246, 0.534);
 width: 96%;
-height: 250px;
+height: 260px;
 margin-left: 32px;
 margin-top: 30px;
 margin-bottom: 30px;
@@ -46,39 +74,65 @@ margin-bottom: 30px;
 </head>
 <body>
     
-    <nav class="navbar-dark bg-dark" style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-        <a class="navbar-brand" href="#">  &nbsp;&nbsp; BANA DAİR</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="http://127.0.0.1:5500/ilk.html">HAKKIMDA <span class="sr-only">(current)</span></a>
-            </li>
 
-            <li class="nav-item active">
-                <a class="nav-link" href="http://127.0.0.1:5500/ilk.html">ŞEHRİM <span class="sr-only">(current)</span></a>
-              </li>
 
-              <li class="nav-item active">
-                <a class="nav-link" href="http://127.0.0.1:5500/iletisim.html">İLETİŞİM <span class="sr-only">(current)</span></a>
-              </li>
-              
-              <li class="nav-item active">
-                <a class="nav-link" href="http://127.0.0.1:5500/cv.html">CV <span class="sr-only">(current)</span></a>
-              </li>
-              
+  <nav class="navbar-dark bg-dark" style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <a class="navbar-brand" href="#">  &nbsp; &nbsp; BANA DAİR</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="hobilerim.html"> &nbsp; &nbsp;HAKKIMDA-HOBİLERİM <span class="sr-only">(current)</span></a>
+        </li>
 
-          </ul>
-         
-        </div>
-      </nav>
+        <li class="nav-item active">
+            <a class="nav-link" href="sehrim.html">&nbsp; &nbsp;ŞEHRİM <span class="sr-only">(current)</span></a>
+          </li>
+
+
+          <li class="nav-item active">
+            <a class="nav-link" href="miras.html">&nbsp; &nbsp;MİRAS <span class="sr-only">(current)</span></a>
+          </li>
+
+             
+          <li class="nav-item active">
+            <a class="nav-link" href="cv.html">&nbsp; &nbsp;CV <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="iletisim.php">&nbsp; &nbsp;İLETİŞİM <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="panel.php">&nbsp; &nbsp; İLETİŞİM VERİLERİ <span class="sr-only">(current)</span></a>
+          </li>
+       
+          
+
+      </ul>
+     
+    </div>
+  </nav>
 
 <div class="divv">
-<img style="height: 213px; margin-left: 21px; margin-top: 16px; width: 220px;  border-radius: 50%;
+<img style="height: 213px; float: left; margin-left: 21px; margin-top: 0px; width: 220px; margin-right: 30px; border-radius: 50%;
 border-style:initial;"  src="resimler/ppppp.jpeg" alt="">
+<h2> Müziğe ve Filme Dair</h2> 
+<h4> Müzik, hislerin tarifini yapmakta en kolay yoldur.
+<br>
+Anlık olarak kendimi yükseltmek, rahatlatmak ya da boş vakitlerimi doldurmak için dinlerim. <br>
+ En çok yolculuklarda ve dışarıya çıkmak için hazırlanırken dinlerim. <br>
+ 
+ Film türü olarak süper kahraman filmlerini seviyorum. <br> Özellikle Avengers serisini ve karakterlerin ayrı ayrı çoğu filmini seviyorum. 
+
+
+
+
+
+</h4>
 
 </div>
 
@@ -110,7 +164,41 @@ border-style:initial;"  src="resimler/ppppp.jpeg" alt="">
 
 
 
+<div id="filmListesi"></div>
 
+  <script>
+    const apiKey = 'e3673ca6'; // API anahtarınızı buraya girin
+    const movieTitles = ['The Italian Job ','Me Before You','Avengers','Captain America']; // Çekmek istediğiniz filmlerin başlıklarını bir dizi olarak belirtin
+
+    const filmListesiDiv = document.getElementById('filmListesi');
+
+    movieTitles.forEach(movieTitle => {
+      const apiUrl = `http://www.omdbapi.com/?apikey=${apiKey}&t=${encodeURIComponent(movieTitle)}`;
+
+      fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+          // API yanıtını işleyin
+          const filmDiv = document.createElement('div');
+          filmDiv.className = 'film';
+          filmDiv.innerHTML = `
+            <h2>${data.Title}</h2>
+            <img src="${data.Poster}" alt="${data.Title} Poster">
+            <p>Yönetmen: ${data.Director}</p>
+            <p>Oyuncular: ${data.Actors}</p>
+            <p>Yıl: ${data.Year}</p>
+            <p>Tür: ${data.Genre}</p>
+            <p>Özet: ${data.Plot}</p>
+          `;
+          filmListesiDiv.appendChild(filmDiv);
+        })
+
+        .catch(error => {
+          // Hata durumunda işleme geçin
+          console.error('Hata:', error);
+        });
+    });
+  </script>
 
 
 

@@ -1,0 +1,127 @@
+body{
+    background:#262626 url(resimler/fo10.jpeg);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.telfoto{
+    float: left; border-radius: 50%;
+border-style:initial; width:110px; height:110px;
+    }
+
+
+
+            .okumadiv{
+width: 355px;
+height: 10px;
+margin-top: 20px;
+margin-left: 20px;
+margin-bottom: 100px;
+background-color: rgba(127, 255, 212, 0);
+
+float:left
+}
+
+.usttekidiv{
+  padding-left: 20px; 
+  float:left ; 
+  padding-bottom: 20px; padding-top: 5px; padding-right: 20px; width: 95%;
+ height: 185px; background-color:  rgba(255, 251, 251, 0.482);  margin-top: 25px; margin-left: 20px;  margin-right: 20px;
+}
+
+.imgdiv
+{
+    width: 300px; 
+    height: 400px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+
+/* tablet ----------------------------------------------------------------------------------- tablet ekran */
+@media(max-width:960px)
+{ 
+
+    
+    .okumadiv{
+        width: 325px;
+        height: 570px;
+      
+       margin-left: 65px;
+       margin-right: auto;
+       
+        
+        background-color:  rgba(255, 251, 251, 0.482);
+        
+        
+        }
+        
+        .usttekidiv{
+          padding-left: 20px; 
+          float:left ; 
+          padding-bottom: 20px; padding-top: 5px; padding-right: 20px; width: 95%;
+         height: 210px; background-color:  rgba(255, 251, 251, 0.482);  margin-top: 25px; margin-left: 20px;  margin-right: 20px;
+        }
+        
+       
+        
+        
+
+}   
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------  telefon ekran */
+@media(max-width:768px)
+{
+    
+    .okumadiv{
+        width: 335px;
+        height: 570px;
+      margin: auto;
+       margin-left: 41px;
+    
+       margin-top: 20px;
+        margin-bottom: 10px;
+        background-color:  rgba(83, 37, 37, 0);
+        
+        
+        }
+        
+        .usttekidiv{
+          padding-left: 20px; 
+          
+          padding-bottom: 10px;
+           padding-top: 5px;
+            padding-right: 20px;
+             width: 80%;
+         height: 540px;
+          background-color:  rgba(255, 251, 251, 0.482);
+            margin-top: 25px;
+            margin-bottom: 25px;
+             margin-left: 41px;
+               margin-right: 0px;
+        }
+     
+        
+        .telfoto{
+           
+             border-radius: 50%;
+            border-style:initial;
+            float: none;
+         width:110px; height:110px;
+        }
+
+        .ortala{
+            margin-left: 90px;
+            margin-top: 20px;
+            width: 111px;
+            height: 111px;
+            
+        }
+
+ }

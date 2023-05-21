@@ -1,0 +1,94 @@
+
+
+.basayaz{
+text-align:left;
+padding-left: 170px;
+
+
+}
+
+
+body{
+    background: url(resimler/fo10.jpeg);
+}
+
+/*  pc ekran */
+.divim {
+    background-color: rgba(190, 184, 184, 0.542);
+    text-align: center;
+    width: 800px;
+    height: 1200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/*  tablet ekran */
+@media(max-width:960px)
+{
+
+  
+
+    .divim {
+        background-color: rgba(190, 184, 184, 0.542);
+        text-align: center;
+        width: 800px;
+        height: 1200px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+        border-radius: 2%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+}
+
+
+
+
+
+
+/*  telefon ekran */
+@media(max-width:768px)
+{
+
+
+
+    .divim {
+        background-color: rgba(190, 184, 184, 0.542);
+        text-align: center;
+        width: 370px;
+        height: 1230px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+        border-radius: 2%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+
+    .chek{
+        width: 160px;
+        height: 290px;
+padding: 10px;
+margin: auto;
+background-color: rgba(190, 184, 184, 0);
+
+    }
+
+.adresbasligi{
+    width: 120px;
+}
+
+.adres{
+    
+    width: 230px;
+}
+
+
+}
+
+
